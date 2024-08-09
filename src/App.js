@@ -4,9 +4,10 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { FiSettings } from 'react-icons/fi';
 import { Tooltip } from '@chakra-ui/react';
 import Sidebar from './components/Sidebar';
+import { useStateContext } from './contexts/ContextProvider';
 
 function App() {
-    const activeMenu = true;
+    const { activeMenu } = useStateContext();
     return (
         <>
             <BrowserRouter>
