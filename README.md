@@ -24,5 +24,12 @@
 ```
 2. To use the style in the app, simply add the className (e.g. `bg-main-bg`)
 
+### Context
+* The application state is stored using `useContext` hook in React. See `ContextProvider.js`
+
 ### Sidebar
-An elegant sidebar in React is added where the navigation is done using NavLink from `react-router-dom`. See `Sidebar.jsx`
+* An elegant sidebar in React is added where the navigation is done using NavLink from `react-router-dom`. See `Sidebar.jsx`
+* Responsive, closes automatically on small screens
+
+### Navbar
+* An elegant navbar in React is added using icons. See `Navbar.jsx`
