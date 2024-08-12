@@ -6,6 +6,7 @@ import { Tooltip } from '@chakra-ui/react';
 import Sidebar from './components/Sidebar';
 import { useStateContext } from './contexts/ContextProvider';
 import Navbar from './components/Navbar';
+import Ecommerce from './pages/Ecommerce';
 
 function App() {
     const { activeMenu } = useStateContext();
@@ -32,8 +33,8 @@ function App() {
                         </div>
                         <Routes>
                             {/* Dashbaord */}
-                            <Route path='/' element="ECommerce" />
-                            <Route path='/ecommerce' element="ECommerce" />
+                            <Route path='/' element={<Ecommerce />} />
+                            <Route path='/ecommerce' element={<Ecommerce />} />
 
                             {/* Pages */}
                             <Route path='/orders' element="Orders" />
