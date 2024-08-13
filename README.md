@@ -35,7 +35,7 @@
 
 ### Charts
 
-- Line chart: see [MUI X line chart](https://mui.com/x/react-charts/lines/#basics) and `Ecommerce.jsx`
+- Line chart: see [MUI X line chart](https://mui.com/x/react-charts/lines/#basics)
 
 ```
 <LineChart
@@ -51,6 +51,52 @@
   id="line-sparkline"
 />
 ```
+
+- Sparkline chart: see [MUI X Sparkline chart](https://mui.com/x/react-charts/sparkline) and `Ecommerce.jsx`
+
+```
+<SparkLineChart
+  xAxis={{ data: SparklineAreaData.dataX }}
+  data={SparklineAreaData.dataY}
+  width={250}
+  height={120}
+  colors={["blue"]}
+  id="line-sparkline"
+  showHighlight={true}
+  showTooltip={true}
+/>
+```
+
+- Stacked bar chart: see [MUI X Bar chart](https://mui.com/x/react-charts/bars) and `Ecommerce.jsx`
+
+```
+<BarChart
+  xAxis={[
+    {
+      scaleType: "band",
+      data: myStackedChartData.dataX,
+    },
+  ]}
+  series={[
+    {
+      data: myStackedChartData.dataY1,
+      color: "#4b5563",
+      stack: "A",
+      label: "Expense",
+    },
+    {
+      data: myStackedChartData.dataY2,
+      color: "#4ade80",
+      stack: "A",
+      label: "Budget",
+    },
+  ]}
+  width={320}
+  height={360}
+  id="stack-chart"
+/>
+```
+
 
 ### Sidebar
 

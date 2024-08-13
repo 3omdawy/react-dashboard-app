@@ -6,14 +6,15 @@ import { GoDotFill } from "react-icons/go";
 import {
   earningData,
   SparklineAreaData,
-  ecomPieChartData,
+  myStackedChartData,
 } from "../data/dummy";
 
 import { useStateContext } from "../contexts/ContextProvider";
 
 import Button from "../components/Button";
 
-import { LineChart } from "@mui/x-charts/LineChart";
+import { SparkLineChart } from "@mui/x-charts/SparkLineChart";
+import { BarChart } from "@mui/x-charts/BarChart";
 
 function Ecommerce() {
   return (
@@ -107,19 +108,54 @@ function Ecommerce() {
               </div>
 
               <div className="mt-5">
-                <LineChart
-                  xAxis={[{ data: SparklineAreaData.dataX }]}
-                  series={[
-                    {
-                      data: SparklineAreaData.dataY,
-                      color: "blue",
-                    },
-                  ]}
-                  width={300}
-                  height={200}
+                <SparkLineChart
+                  xAxis={{ data: SparklineAreaData.dataX }}
+                  data={SparklineAreaData.dataY}
+                  width={250}
+                  height={120}
+                  colors={["blue"]}
                   id="line-sparkline"
+                  showHighlight={true}
+                  showTooltip={true}
                 />
               </div>
+
+              <div className="mt-10">
+                <Button
+                  color="white"
+                  bgColor="blue"
+                  text="Download Report"
+                  borderRadius="10px"
+                />
+              </div>
+            </div>
+
+            <div>
+              <BarChart
+                xAxis={[
+                  {
+                    scaleType: "band",
+                    data: myStackedChartData.dataX,
+                  },
+                ]}
+                series={[
+                  {
+                    data: myStackedChartData.dataY1,
+                    color: "#4b5563",
+                    stack: "A",
+                    label: "Expense",
+                  },
+                  {
+                    data: myStackedChartData.dataY2,
+                    color: "#4ade80",
+                    stack: "A",
+                    label: "Budget",
+                  },
+                ]}
+                width={320}
+                height={360}
+                id="stack-chart"
+              />
             </div>
           </div>
         </div>

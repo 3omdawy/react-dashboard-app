@@ -3194,6 +3194,12 @@ export const ecomPieChartData = [
   { x: '2021', y: 18, text: '25%' },
 ];
 
+export const myStackedChartData = {
+  dataX: ["Jan", "Feb", "Mar", "Apr", "May", "June", "July"],
+  dataY1: [111.1, 127.3, 143.4, 159.9, 159.9, 159.9, 159.9],
+  dataY2: [111.1, 127.3, 143.4, 159.9, 159.9, 159.9, 159.9],
+}
+
 export const stackedChartData = [
   [
     { x: 'Jan', y: 111.1 },
