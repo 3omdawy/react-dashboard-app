@@ -53,6 +53,7 @@
 ```
 
 - Sparkline chart: see [MUI X Sparkline chart](https://mui.com/x/react-charts/sparkline) and `Ecommerce.jsx`
+![image](https://github.com/user-attachments/assets/4fe4d95b-6f92-43a6-86a4-17a309bd5692)
 
 ```
 <SparkLineChart
@@ -68,6 +69,7 @@
 ```
 
 - Stacked bar chart: see [MUI X Bar chart](https://mui.com/x/react-charts/bars) and `Ecommerce.jsx`
+![image](https://github.com/user-attachments/assets/7b5a740a-f510-45df-9f5b-8b06a041d494)
 
 ```
 <BarChart
@@ -102,7 +104,11 @@
 
 - An elegant sidebar in React is added where the navigation is done using NavLink from `react-router-dom`. See `Sidebar.jsx`
 - Responsive, closes automatically on small screens
+![image](https://github.com/user-attachments/assets/ddefbfdb-b6c3-4599-9aea-fd0384c27351)
+
 
 ### Navbar
 
 - An elegant navbar in React is added using icons. See `Navbar.jsx`
+
+![image](https://github.com/user-attachments/assets/c3de41bb-895c-4fd5-bdf2-d60acd16cab0)
