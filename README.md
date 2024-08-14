@@ -35,6 +35,9 @@
 
 ### Datatables
 
+![image](https://github.com/user-attachments/assets/9f5ddfea-44db-4c70-a41e-1bf89b47771c)
+
+
 - See [ReactPrime DataTable](https://primereact.org/datatable/) and `Orders.jsx`
 1. Install it using npm
 ```
