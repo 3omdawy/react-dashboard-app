@@ -1,6 +1,6 @@
 # React Dashboard App ![Static Badge](https://img.shields.io/badge/InProgress-blue)
 
-- This is an admin dashboard application with many charts and pages created using ReactJS, TailwindCSS, MUI X, and Chakra UI
+- This is an admin dashboard application with many charts and pages created using ReactJS, TailwindCSS, MUI X (for charts), PrimeReact (for datatables), and Chakra UI (for tooltips)
 - It is based on [this tutorial](https://www.youtube.com/watch?v=jx5hdo50a2M&list=PL6QREj8te1P6wX9m5KnicnDVEucbOPsqR&index=13), with using MUI X instead of SyncFusion (because MUI X is free)
 
 ## Technical Highlights
@@ -32,6 +32,43 @@
 ### Context
 
 - The application state is stored using `useContext` hook in React. See `ContextProvider.js`
+
+### Datatables
+
+- See [ReactPrime DataTable](https://primereact.org/datatable/) and `Orders.jsx`
+1. Install it using npm
+```
+npm install primereact
+```
+2. Add its imports and CSS includes
+```
+import { DataTable } from "primereact/datatable";
+import { Column } from "primereact/column";
+import "primereact/resources/themes/lara-light-indigo/theme.css";
+```
+3. Use it
+```
+<DataTable
+  value={ordersData}
+  paginator
+  rows={5}
+  rowsPerPageOptions={[5, 10, 25, 50]}
+  id="gridcomp"
+>
+  {ordersGrid.map((column) => (
+    <Column
+      key={column.headerText}
+      header={column.headerText}
+      body={column.template}
+      align={column.textAlign}
+      alignHeader={column.textAlign}
+      style={{ width: 10 }}
+      field={column.field}
+      sortable
+    ></Column>
+  ))}
+</DataTable>
+```
 
 ### Charts
 
