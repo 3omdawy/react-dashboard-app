@@ -8,6 +8,7 @@ import { useStateContext } from './contexts/ContextProvider';
 import Navbar from './components/Navbar';
 import Ecommerce from './pages/Ecommerce';
 import Orders from './pages/Orders';
+import Employees from './pages/Employees';
 
 function App() {
     const { activeMenu } = useStateContext();
@@ -39,7 +40,7 @@ function App() {
 
                             {/* Pages */}
                             <Route path='/orders' element={<Orders />} />
-                            <Route path='/employees' element="Employees" />
+                            <Route path='/employees' element={<Employees />} />
                             <Route path='/customers' element="Customers" />
 
                             {/* Apps */}

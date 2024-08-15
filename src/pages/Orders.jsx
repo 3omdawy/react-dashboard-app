@@ -27,7 +27,7 @@ function Orders() {
               body={column.template}
               align={column.textAlign}
               alignHeader={column.textAlign}
-              style={{ width: 10 }}
+              style={{ width: column.width }}
               field={column.field}
               sortable
             ></Column>

@@ -464,24 +464,24 @@ export const employeesGrid = [
     headerText: 'Employee',
     width: '150',
     template: gridEmployeeProfile,
-    textAlign: 'Center'
+    textAlign: 'center'
   },
-  {
+  /*{
     field: 'Name',
     headerText: '',
     width: '0',
-    textAlign: 'Center',
-  },
+    textAlign: 'center',
+  },*/
   {
     field: 'Title',
     headerText: 'Designation',
     width: '170',
-    textAlign: 'Center',
+    textAlign: 'center',
   },
   {
     headerText: 'Country',
     width: '120',
-    textAlign: 'Center',
+    textAlign: 'center',
     template: gridEmployeeCountry
   },
 
@@ -490,20 +490,20 @@ export const employeesGrid = [
     headerText: 'Hire Date',
     width: '135',
     format: 'yMd',
-    textAlign: 'Center'
+    textAlign: 'center'
   },
 
   {
     field: 'ReportsTo',
     headerText: 'Reports To',
     width: '120',
-    textAlign: 'Center'
+    textAlign: 'center'
   },
   {
     field: 'EmployeeID',
     headerText: 'Employee ID',
     width: '125',
-    textAlign: 'Center'
+    textAlign: 'center'
   },
 ];
 

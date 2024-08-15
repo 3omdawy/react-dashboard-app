@@ -37,19 +37,24 @@
 
 ![image](https://github.com/user-attachments/assets/9f5ddfea-44db-4c70-a41e-1bf89b47771c)
 
+- See [ReactPrime DataTable](https://primereact.org/datatable/) and the examples in `Orders.jsx` and `Employees.jsx`
 
-- See [ReactPrime DataTable](https://primereact.org/datatable/) and `Orders.jsx`
 1. Install it using npm
+
 ```
 npm install primereact
 ```
+
 2. Add its imports and CSS includes
+
 ```
 import { DataTable } from "primereact/datatable";
 import { Column } from "primereact/column";
 import "primereact/resources/themes/lara-light-indigo/theme.css";
 ```
+
 3. Use it
+
 ```
 <DataTable
   value={ordersData}
@@ -73,6 +78,8 @@ import "primereact/resources/themes/lara-light-indigo/theme.css";
 </DataTable>
 ```
 
+4. Add some options (like sorting by columns in `Orders` or global search in `Employees`)
+
 ### Charts
 
 - Line chart: see [MUI X line chart](https://mui.com/x/react-charts/lines/#basics)
@@ -93,7 +100,7 @@ import "primereact/resources/themes/lara-light-indigo/theme.css";
 ```
 
 - Sparkline chart: see [MUI X Sparkline chart](https://mui.com/x/react-charts/sparkline) and `Ecommerce.jsx`
-![image](https://github.com/user-attachments/assets/4fe4d95b-6f92-43a6-86a4-17a309bd5692)
+  ![image](https://github.com/user-attachments/assets/4fe4d95b-6f92-43a6-86a4-17a309bd5692)
 
 ```
 <SparkLineChart
@@ -109,7 +116,7 @@ import "primereact/resources/themes/lara-light-indigo/theme.css";
 ```
 
 - Stacked bar chart: see [MUI X Bar chart](https://mui.com/x/react-charts/bars) and `Ecommerce.jsx`
-![image](https://github.com/user-attachments/assets/7b5a740a-f510-45df-9f5b-8b06a041d494)
+  ![image](https://github.com/user-attachments/assets/7b5a740a-f510-45df-9f5b-8b06a041d494)
 
 ```
 <BarChart
@@ -139,13 +146,11 @@ import "primereact/resources/themes/lara-light-indigo/theme.css";
 />
 ```
 
-
 ### Sidebar
 
 - An elegant sidebar in React is added where the navigation is done using NavLink from `react-router-dom`. See `Sidebar.jsx`
 - Responsive, closes automatically on small screens
-![image](https://github.com/user-attachments/assets/ddefbfdb-b6c3-4599-9aea-fd0384c27351)
-
+  ![image](https://github.com/user-attachments/assets/ddefbfdb-b6c3-4599-9aea-fd0384c27351)
 
 ### Navbar
 
