@@ -9,6 +9,7 @@ import Navbar from './components/Navbar';
 import Ecommerce from './pages/Ecommerce';
 import Orders from './pages/Orders';
 import Employees from './pages/Employees';
+import Customers from './pages/Customers';
 
 function App() {
     const { activeMenu } = useStateContext();
@@ -41,7 +42,7 @@ function App() {
                             {/* Pages */}
                             <Route path='/orders' element={<Orders />} />
                             <Route path='/employees' element={<Employees />} />
-                            <Route path='/customers' element="Customers" />
+                            <Route path='/customers' element={<Customers />} />
 
                             {/* Apps */}
                             <Route path='/kabnab' element="Kanban" />

@@ -37,7 +37,7 @@
 
 ![image](https://github.com/user-attachments/assets/9f5ddfea-44db-4c70-a41e-1bf89b47771c)
 
-- See [ReactPrime DataTable](https://primereact.org/datatable/) and the examples in `Orders.jsx` and `Employees.jsx`
+- See [ReactPrime DataTable](https://primereact.org/datatable/) and the examples in `Orders.jsx` and `Employees.jsx` and `Customers.jsx`
 
 1. Install it using npm
 
@@ -78,7 +78,7 @@ import "primereact/resources/themes/lara-light-indigo/theme.css";
 </DataTable>
 ```
 
-4. Add some options (like sorting by columns in `Orders` or global search in `Employees`)
+4. Add some options (like sorting by columns in `Orders.jsx` or global search in `Employees.jsx` or editing and selecting in `Customers.jsx`)
 
 ### Charts
 
