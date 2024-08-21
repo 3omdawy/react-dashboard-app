@@ -161,3 +161,4 @@ import "primereact/resources/themes/lara-light-indigo/theme.css";
 ### Kanban Chart
 
 - A Kanban chart is added in `Kanban.jsx` based on [this repo](https://github.com/christopher-caldwell/react-kanban)
+![image](https://github.com/user-attachments/assets/eefc0568-ba4b-4061-912b-e397bb8dcf28)
