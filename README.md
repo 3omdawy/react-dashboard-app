@@ -157,3 +157,7 @@ import "primereact/resources/themes/lara-light-indigo/theme.css";
 - An elegant navbar in React is added using icons. See `Navbar.jsx`
 
 ![image](https://github.com/user-attachments/assets/c3de41bb-895c-4fd5-bdf2-d60acd16cab0)
+
+### Kanban Chart
+
+- A Kanban chart is added in `Kanban.jsx` based on [this repo](https://github.com/christopher-caldwell/react-kanban)

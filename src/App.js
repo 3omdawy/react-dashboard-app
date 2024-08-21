@@ -10,6 +10,8 @@ import Ecommerce from './pages/Ecommerce';
 import Orders from './pages/Orders';
 import Employees from './pages/Employees';
 import Customers from './pages/Customers';
+import Calendar from './pages/Calendar';
+import Kanban from './pages/Kanban';
 
 function App() {
     const { activeMenu } = useStateContext();
@@ -45,9 +47,9 @@ function App() {
                             <Route path='/customers' element={<Customers />} />
 
                             {/* Apps */}
-                            <Route path='/kabnab' element="Kanban" />
+                            <Route path='/kanban' element={<Kanban />} />
                             <Route path='/editor' element="Editor" />
-                            <Route path='/calendar' element="Calendar" />
+                            <Route path='/calendar' element={<Calendar />} />
                             <Route path='/color-picker' element="ColorPicker" />
 
                             {/* Charts */}
