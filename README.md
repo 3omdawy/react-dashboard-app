@@ -164,6 +164,10 @@ import "primereact/resources/themes/lara-light-indigo/theme.css";
 
 ![image](https://github.com/user-attachments/assets/852acfed-e63a-4082-87fb-8e32078894bc)
 
+### Color Picker
+
+- `SwatchesPicker` and `SketchPicker` added based on [react-color](https://github.com/casesandberg/react-color). See `ColorPicker.jsx`
+
 ### Kanban Chart
 
 - A Kanban chart is added in `Kanban.jsx` based on [this repo](https://github.com/christopher-caldwell/react-kanban)
