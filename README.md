@@ -1,6 +1,6 @@
 # React Dashboard App ![Static Badge](https://img.shields.io/badge/InProgress-blue)
 
-- This is an admin dashboard application with many charts and pages created using ReactJS, TailwindCSS, MUI X (for charts), PrimeReact (for datatables), and Chakra UI (for tooltips)
+- This is an admin dashboard application with many charts and pages created using ReactJS, TailwindCSS, MUI X (for charts), PrimeReact (for datatables and other components), and Chakra UI (for tooltips)
 - It is based on [this tutorial](https://www.youtube.com/watch?v=jx5hdo50a2M&list=PL6QREj8te1P6wX9m5KnicnDVEucbOPsqR&index=13), with using MUI X instead of SyncFusion (because MUI X is free)
 
 ## Technical Highlights
@@ -161,6 +161,8 @@ import "primereact/resources/themes/lara-light-indigo/theme.css";
 ### WYSWYG Editor
 
 - Added based on [PrimeReact](https://primereact.org/editor/) which uses [QuiliJS](https://quilljs.com/). See `EditorComp.jsx`
+
+![image](https://github.com/user-attachments/assets/852acfed-e63a-4082-87fb-8e32078894bc)
 
 ### Kanban Chart
 
