@@ -158,6 +158,10 @@ import "primereact/resources/themes/lara-light-indigo/theme.css";
 
 ![image](https://github.com/user-attachments/assets/c3de41bb-895c-4fd5-bdf2-d60acd16cab0)
 
+### WYSWYG Editor
+
+- Added based on [PrimeReact](https://primereact.org/editor/) which uses [QuiliJS](https://quilljs.com/). See `EditorComp.jsx`
+
 ### Kanban Chart
 
 - A Kanban chart is added in `Kanban.jsx` based on [this repo](https://github.com/christopher-caldwell/react-kanban)

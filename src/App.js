@@ -12,6 +12,7 @@ import Employees from './pages/Employees';
 import Customers from './pages/Customers';
 import Calendar from './pages/Calendar';
 import Kanban from './pages/Kanban';
+import EditorComp from './pages/EditorComp';
 
 function App() {
     const { activeMenu } = useStateContext();
@@ -48,7 +49,7 @@ function App() {
 
                             {/* Apps */}
                             <Route path='/kanban' element={<Kanban />} />
-                            <Route path='/editor' element="Editor" />
+                            <Route path='/editor' element={<EditorComp />} />
                             <Route path='/calendar' element={<Calendar />} />
                             <Route path='/color-picker' element="ColorPicker" />
 
