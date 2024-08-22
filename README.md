@@ -166,7 +166,9 @@ import "primereact/resources/themes/lara-light-indigo/theme.css";
 
 ### Color Picker
 
-- `SwatchesPicker` and `SketchPicker` added based on [react-color](https://github.com/casesandberg/react-color). See `ColorPicker.jsx`
+- `SwatchesPicker` and `SketchPicker` are added based on [react-color](https://github.com/casesandberg/react-color). See `ColorPicker.jsx`
+
+![image](https://github.com/user-attachments/assets/5b012f1b-6876-4200-9857-271c4bcd1cd3)
 
 ### Kanban Chart
 
