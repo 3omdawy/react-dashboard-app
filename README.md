@@ -164,7 +164,9 @@ import "primereact/resources/themes/lara-light-indigo/theme.css";
 
 - A side menu is opened for the user to choose the application theme when settings is clicked. See `ThemeSettings.jsx`.
 - Implementation is done in the ContextProvide and stored in `localStorage`. See `ContextProvider.js`
-- Usage: see usage of `currentColor` and `currentMode`
+- Usage: see the usage of `currentColor` and `currentMode`
+
+![image](https://github.com/user-attachments/assets/130cbd4c-5deb-420c-b90f-38cb67972fa5)
 
 ### WYSWYG Editor
 
