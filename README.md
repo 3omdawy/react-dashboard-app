@@ -33,6 +33,8 @@
 
 - The application state is stored using `useContext` hook in React. See `ContextProvider.js`
 
+## Components
+
 ### Datatables
 
 ![image](https://github.com/user-attachments/assets/9f5ddfea-44db-4c70-a41e-1bf89b47771c)
@@ -158,6 +160,12 @@ import "primereact/resources/themes/lara-light-indigo/theme.css";
 
 ![image](https://github.com/user-attachments/assets/c3de41bb-895c-4fd5-bdf2-d60acd16cab0)
 
+### Theme Setting
+
+- A side menu is opened for the user to choose the application theme when settings is clicked. See `ThemeSettings.jsx`.
+- Implementation is done in the ContextProvide and stored in `localStorage`. See `ContextProvider.js`
+- Usage: see usage of `currentColor` and `currentMode`
+
 ### WYSWYG Editor
 
 - Added based on [PrimeReact](https://primereact.org/editor/) which uses [QuiliJS](https://quilljs.com/). See `EditorComp.jsx`
@@ -173,4 +181,4 @@ import "primereact/resources/themes/lara-light-indigo/theme.css";
 ### Kanban Chart
 
 - A Kanban chart is added in `Kanban.jsx` based on [this repo](https://github.com/christopher-caldwell/react-kanban)
-![image](https://github.com/user-attachments/assets/eefc0568-ba4b-4061-912b-e397bb8dcf28)
+  ![image](https://github.com/user-attachments/assets/eefc0568-ba4b-4061-912b-e397bb8dcf28)

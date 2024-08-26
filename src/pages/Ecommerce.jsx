@@ -17,11 +17,12 @@ import { SparkLineChart } from "@mui/x-charts/SparkLineChart";
 import { BarChart } from "@mui/x-charts/BarChart";
 
 function Ecommerce() {
+  const { currentColor } = useStateContext();
   return (
     <div className="mt-12">
       <div className="flex flex-wrap lg:flex-nowrap justify-center">
         <div
-          className="bg-white bg-hero-pattern dark:text-gray-200 dark:bg-secondary-dark-bg
+          className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg
          h-44 rounded-xl w-full lg:w-80 p-8 pt-9 m-3 bg-no-repeat bg-cover bg-center"
         >
           <div className="flex justify-between items-center">
@@ -33,7 +34,7 @@ function Ecommerce() {
           <div className="mt-6">
             <Button
               color="white"
-              bgColor="blue"
+              bgColor={currentColor}
               text="Download"
               borderRadius="10px"
               size="md"
@@ -113,7 +114,7 @@ function Ecommerce() {
                   data={SparklineAreaData.dataY}
                   width={250}
                   height={120}
-                  colors={["blue"]}
+                  colors={[currentColor]}
                   id="line-sparkline"
                   showHighlight={true}
                   showTooltip={true}
@@ -123,7 +124,7 @@ function Ecommerce() {
               <div className="mt-10">
                 <Button
                   color="white"
-                  bgColor="blue"
+                  bgColor={currentColor}
                   text="Download Report"
                   borderRadius="10px"
                 />
@@ -155,6 +156,7 @@ function Ecommerce() {
                 width={320}
                 height={360}
                 id="stack-chart"
+                className="bg-white"
               />
             </div>
           </div>
